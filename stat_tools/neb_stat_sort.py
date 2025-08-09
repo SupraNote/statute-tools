@@ -74,7 +74,6 @@ def sort_stat(stats):
     sorted_tuples.append(g3_sort)
     g4_sort = sorted(g4_list, key=lambda item: (item[1], item[2], item[3]))
     sorted_tuples.append(g4_sort)
-    print(sorted_tuples)
     
     sorted_stats = []
     
